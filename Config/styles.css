@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+ 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+ 
+header h1 {
+    margin: 0;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+.search-bar {
+    background-color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+ 
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+ 
+.featured-categories {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+.featured-categories a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+ 
+.featured-categories a:hover {
+    background-color: #333;
+    color: #fff;
+}
+ 
+.trending-links {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+.carousel {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.carousel p {
+    background-color: #ccc;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+ 
+.education-links, .cinema-links, .sports-links, .it-links {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+ 
+.education-links ul, .cinema-links ul, .sports-links ul, .it-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.education-links ul li, .cinema-links ul li, .sports-links ul li, .it-links ul li {
+    display: inline-block;
+    margin: 10px;
+}
+ 
+.education-links ul li a, .cinema-links ul li a, .sports-links ul li a, .it-links ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+ 
+.education-links ul li a:hover, .cinema-links ul li a:hover, .sports-links ul li a:hover, .it-links ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

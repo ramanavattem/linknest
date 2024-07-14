@@ -1,0 +1,17 @@
+{
+    "name": "linknest",
+    "version": "1.0.0",
+    "description": "Your LinkNest project description",
+    "main": "node.js",
+    "scripts": {
+      "start": "node node.js",
+      "dev": "nodemon node.js",
+      "install-deps": "npm install"
+    },
+    "dependencies": {
+      "express": "^4.17.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
